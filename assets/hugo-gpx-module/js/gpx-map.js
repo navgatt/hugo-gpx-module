@@ -550,6 +550,9 @@
     }
 
     createRouteSelector() {
+      // If showRouteSelector is explicitly false, keep the selector hidden
+      if (String(this.config.showRouteSelector) === 'false') return;
+
       const list = document.getElementById(this.mapId + '-routes');
       const sel = document.getElementById(this.mapId + '-route-selector');
       if (!list) return;
