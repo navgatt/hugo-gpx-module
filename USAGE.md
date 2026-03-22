@@ -114,6 +114,7 @@ Any parameter set in the shortcode will override the global configuration.
 | **route-min-width** | `370px` | Minimum width for columns in the route selection list before wrapping. |
 | **stat-min-width** | `110px` | Minimum width for statistic boxes in the dashboard before wrapping. |
 | **show-stats** | `true` | Shows the dashboard (Distance, Elevation, Time). |
+| **show-route-selector** | `true` | Shows the route selection panel. |
 | **elevation** | `true` | Show/Hide elevation profile on load. |
 | **elevation-info** | `true` | Show/Hide elevation numeric data (gain/loss). Alias: `elevation_info`. |
 | **elevation-height** | `150px` | Height of the elevation chart container. |
